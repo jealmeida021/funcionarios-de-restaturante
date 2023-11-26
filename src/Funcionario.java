@@ -64,4 +64,8 @@ public abstract class Funcionario {
 
     }
 
+    public double receberGorjeta(double novaGorjeta){
+        return 0;
+    }
+
 }

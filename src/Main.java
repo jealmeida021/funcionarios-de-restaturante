@@ -4,7 +4,7 @@ public class Main {
 
         Funcionario funcionario1 = new Gerente("joão", "123456", "gerente");
         Funcionario funcionario2 = new AtendenteCaixa("Jose", "45678", "AtendenteCaixa");
-        Funcionario funcionario3 = new Entregador("Helio", "66587", "Entregador");
+        Entregador funcionario3 = new Entregador("Helio", "66587", "Entregador");
         Garcom funcionario4 = new Garcom("Jefferson", "78787889", "Garçom");
 
 
@@ -24,7 +24,23 @@ public class Main {
         funcionario1.realizarTarefa();
         funcionario2.realizarTarefa();
         funcionario3.realizarTarefa();
-        funcionario4.realizarTarefa();
-        funcionario4.receberGorjeta();
+
+        System.out.println(" ");
+
+        funcionario4.receberGorjeta(10.00);
+        System.out.println("Gorjeta Recebida pelo Garçom");
+        System.out.println("O total de gorjeta ficou: " + funcionario4.gorjetaTotal);
+
+        funcionario4.receberGorjeta(11.00);
+        System.out.println("Gorjeta Recebida pelo Garçom");
+        System.out.println("O total de gorjeta ficou: " + funcionario4.gorjetaTotal);
+
+        funcionario3.receberGorjeta(20.00);
+        System.out.println("Gorjeta Recebida pelo Entregador");
+        System.out.println("O total de gorjeta ficou: " + funcionario3.gorjetaTotal);
+        funcionario3.receberGorjeta(12.00);
+        System.out.println("Gorjeta Recebida pelo Entregador");
+        System.out.println("O total de gorjeta ficou: " + funcionario3.gorjetaTotal);
+
     }
 }

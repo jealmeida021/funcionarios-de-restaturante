@@ -1,6 +1,6 @@
 public class Garcom extends Funcionario {
 
-    double gorjeta;
+    double gorjetaTotal;
     public Garcom( String nome, String cpf, String cargo) {
         super( nome, cpf, cargo);
     }
@@ -15,7 +15,8 @@ public class Garcom extends Funcionario {
         System.out.println("Atender Mesas");
     }
 
-    public void receberGorjeta(){
-        System.out.println("Recebendo gorjeta");
+    @Override
+    public double receberGorjeta(double novaGorjeta){
+        return gorjetaTotal += novaGorjeta;
     }
 }

@@ -12,4 +12,5 @@ public class AtendenteCaixa extends Funcionario {
     public void realizarTarefa(){
         System.out.println("Receber pagamentos");
     }
+
 }
