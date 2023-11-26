@@ -7,4 +7,9 @@ public class AtendenteCaixa extends Funcionario {
     public void receberSalario() {
         setSalario(2500.00);
     }
+
+    @Override
+    public void realizarTarefa(){
+        System.out.println("Receber pagamentos");
+    }
 }

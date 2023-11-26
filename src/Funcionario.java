@@ -1,6 +1,6 @@
 /* tarefas a serem incluidas
  *acrescentar método realizarTarefa() ao Funcionário
- *acrescentar sobreescrita realizarTarefa() para cada função
+ *acrescentar sobreescrita realizarTarefa() para cada classe
  *acrescentar atributo gorjeta para o Garçom
  *acrescentar metodo receberGorjeta para o Garçom
  */
@@ -57,6 +57,10 @@ public abstract class Funcionario {
     }
 
     public void receberSalario(){
+
+    }
+
+    public void realizarTarefa(){
 
     }
 

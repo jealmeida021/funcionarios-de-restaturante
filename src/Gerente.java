@@ -8,4 +8,10 @@ public class Gerente  extends Funcionario {
     public void receberSalario() {
         setSalario(3000.00);
     }
+@Override
+    public void realizarTarefa(){
+    System.out.println("Organizar equipe");
+    }
+
 }
+

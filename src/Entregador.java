@@ -7,4 +7,8 @@ public class Entregador extends Funcionario {
     public void receberSalario() {
         setSalario(2000.00);
     }
+    @Override
+    public void realizarTarefa(){
+        System.out.println("Realizar entregas");
+    }
 }
