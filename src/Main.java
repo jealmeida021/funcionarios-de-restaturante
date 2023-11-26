@@ -2,10 +2,10 @@
 public class Main {
     public static void main(String[] args) {
 
-        Funcionarios funcionario1 = new Gerente("joão", "123456", "gerente");
-        Funcionarios funcionario2 = new AtendenteCaixa("Jose", "45678", "AtendenteCaixa");
-        Funcionarios funcionario3 = new Entregador("Helio", "66587", "Entregador");
-        Funcionarios funcionario4 = new Garcom("Jefferson", "78787889", "Garçom");
+        Funcionario funcionario1 = new Gerente("joão", "123456", "gerente");
+        Funcionario funcionario2 = new AtendenteCaixa("Jose", "45678", "AtendenteCaixa");
+        Funcionario funcionario3 = new Entregador("Helio", "66587", "Entregador");
+        Funcionario funcionario4 = new Garcom("Jefferson", "78787889", "Garçom");
 
 
         funcionario1.receberSalario();

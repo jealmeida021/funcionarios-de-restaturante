@@ -1,4 +1,4 @@
-public class Entregador extends Funcionarios{
+public class Entregador extends Funcionario {
     public Entregador( String nome, String cpf, String cargo) {
         super( nome, cpf, cargo);
     }

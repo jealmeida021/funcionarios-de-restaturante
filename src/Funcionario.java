@@ -1,6 +1,11 @@
+/* tarefas a serem incluidas
+ *acrescentar método realizarTarefa() ao Funcionário
+ *acrescentar sobreescrita realizarTarefa() para cada função
+ *acrescentar atributo gorjeta para o Garçom
+ *acrescentar metodo receberGorjeta para o Garçom
+ */
 
-
-public abstract class  Funcionarios {
+public abstract class Funcionario {
 
 
     // Atributos e variavies
@@ -11,7 +16,7 @@ public abstract class  Funcionarios {
 
    private String cargo;
 
-    public Funcionarios(String nome, String cpf, String cargo) {
+    public Funcionario(String nome, String cpf, String cargo) {
 
         this.nome = nome;
         this.cpf = cpf;
